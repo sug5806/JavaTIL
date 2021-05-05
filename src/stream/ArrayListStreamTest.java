@@ -17,7 +17,5 @@ public class ArrayListStreamTest {
         stringList.stream().sorted().forEach(string -> System.out.print(string + "\t"));
         System.out.println();
         stringList.stream().map(String::length).forEach(len -> System.out.print(len + "\t"));
-
-
     }
 }
