@@ -8,10 +8,10 @@ import java.io.IOException;
 public class FileOutputStreamTest {
     public static void main(String[] args) throws IOException {
         // 첫번째 방법
-        FileOutputStream fileOutputStream = new FileOutputStream("src/stream/output_stream/file_output_stream/test.txt");
+        FileOutputStream fileOutputStream = new FileOutputStream("src/stream/output_stream/file_output_stream/origin_test.txt");
 
         // 두번째 방법
-        File file = new File("src/stream/output_stream/file_output_stream/test.txt");
+        File file = new File("src/stream/output_stream/file_output_stream/origin_test.txt");
         FileOutputStream fileOutputStream1 = new FileOutputStream(file);
         System.out.println("=========================");
 
