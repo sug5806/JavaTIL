@@ -6,6 +6,8 @@ import java.io.FileNotFoundException;
 
 public class FileInputStreamTest {
     public static void main(String[] args) throws FileNotFoundException {
+        // FileInputStream을 만드는 방법 2가지
+
         // 첫번째 방법
         FileInputStream fileInputStream = new FileInputStream("src/stream/input_stream/file_input_stream/origin_test.txt");
 
